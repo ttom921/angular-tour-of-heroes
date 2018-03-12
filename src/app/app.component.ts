@@ -5,6 +5,7 @@ export class Hero {
   name: string;
 }
 
+<<<<<<< HEAD
 const HEROES: Hero[] = [
   { id: 11, name: 'Mr. Nice' },
   { id: 12, name: 'Narco' },
@@ -17,6 +18,9 @@ const HEROES: Hero[] = [
   { id: 19, name: 'Magma' },
   { id: 20, name: 'Tornado' }
 ];
+=======
+
+>>>>>>> cbccfe241967e093a4628c766483901d5225cd23
 
 @Component({
   selector: 'app-root',
@@ -25,7 +29,14 @@ const HEROES: Hero[] = [
 })
 export class AppComponent {
   title = 'Tour of Heroes';
+<<<<<<< HEAD
   heroes = HEROES;
+=======
+  hero: Hero = {
+    id: 1,
+    name: 'Windstorm'
+  };
+>>>>>>> cbccfe241967e093a4628c766483901d5225cd23
 }
 
 
